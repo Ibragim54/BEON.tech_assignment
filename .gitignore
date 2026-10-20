@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+cypress.env.json
+cypress/reports/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+.DS_Store
+
+# Local AI tooling (not part of the project)
+.agents/
+skills-lock.json

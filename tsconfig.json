@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020", "dom"],
+    "module": "node16",
+    "moduleResolution": "node16",
+    "types": ["cypress", "node"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "strictNullChecks": true
+  },
+  "include": ["cypress.config.ts", "cypress/**/*.ts"],
+  "exclude": ["node_modules"]
+}

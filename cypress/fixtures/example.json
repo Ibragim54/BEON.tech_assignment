@@ -1,0 +1,19 @@
+{
+  "randomPayload": {
+    "name": "Using fixtures to represent data",
+    "email": "hello@cypress.io",
+    "body": "Fixtures are a great way to mock data for responses to routes"
+  },
+
+  "bookingPayload": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
